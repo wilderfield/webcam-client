@@ -8,7 +8,9 @@ This repo provides software for users to deploy an application that captures fra
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Use the necessary installers for your system.  
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Use the necessary installers for your system, and install both utilites.  
+  
+If you have trouble running npm commands inside of git bash after installation, try closing it, and opening it again.  
   
 For windows users I highly recommend using git bash.  
   
@@ -25,7 +27,10 @@ npm install
 npm start
 ```
   
-Once the app starts, paste the URL of your server, an example is given in the default setting.  
+Once the app starts, paste the predict URL of your server into the REST URL field.  
+For this AWS demo, it will always be: `http://<publicDNS>:8998/predict`  
+i.e. `http://ec2-3-94-181-134.compute-1.amazonaws.com:8998/predict`  
+  
 Then click, enable camera, then click Start Uploading Frames.  
 
 ## Additional Background About Electron
