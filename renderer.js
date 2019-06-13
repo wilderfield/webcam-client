@@ -102,10 +102,6 @@ function processBase64Image(dataString) {
   return response;
 }
 
-//const sleep = (ms) => {
-//  return new Promise(resolve => setTimeout(resolve,ms));
-//}
-
 document.getElementById("savefile").addEventListener('click',function(){
   go = true;
 },false);
