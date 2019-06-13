@@ -8,13 +8,14 @@ This repo provides software for users to deploy an application that captures fra
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Use the necessary installers for your system.  
+Then, From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/wilderfield/webcam-client
 # Go into the repository
-cd electron-quick-start
+cd webcam-client
 # Install dependencies
 npm install
 # Run the app
