@@ -1,18 +1,6 @@
-# electron-quick-start
+# Webcam-Client
+This repo provides software for users to deploy an application that captures frames from a webcam, and upload's them to a user specified server via HTTP form post request. By using Electron, node, and javascript ... this software can be run on any hardware platform.  
 
-**Clone and run for a quick way to see Electron in action.**
-
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
-
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
-
-A basic Electron application needs just these files:
-
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
 ## End Goal
 <p align="center">
     <img src="demo.gif" alt="Image" width="353" height="199" />
