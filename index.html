@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Xilinx WebCam Inference in the Cloud!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script>let $ = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+    <style>
+    #webcam, #webcam-wrapper {
+      width: 320px;
+      height: 320px;
+      position: relative;
+      text-align: center; margin: 0 auto;
+    }
+    #webcam-wrapper {
+      background-color: blue;
+    }
+    #webcam {
+      background-color: yellow;
+    }
+    .deep-rect {
+    z-index:1000;
+    }
+    h1 {
+      text-align: center;
+    }
+    </style> 
+  </head>
+  <body>
+    <h1>Xilinx WebCam Inference in the Cloud!</h1>
+ 
+    <div id="webcam-wrapper">
+    <div id="webcam" style=""></div>
+    </div>
+
+    <br>
+    <div style="text-align:center;">
+      <input type="button" id="start" value="Start / Shut down camera"/>
+      <input type="button" id="savefile" value="Begin Uploading Frames"/>
+    </div>
+    <div style="text-align:center;">
+      REST URL: <input type="text" id="url" value="http://ec2-3-94-181-134.compute-1.amazonaws.com:8998/predict" size="75"/>
+    </div>
+    <div style="text-align:center;">
+      <output type="text" id="response"/>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

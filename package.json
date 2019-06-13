@@ -1,0 +1,37 @@
+{
+  "name": "xlnx-webcam-inference",
+  "version": "1.0.0",
+  "description": "Xilinx webcam Deep Learning inference demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Xilinx",
+    "ML suite",
+    "Deep Learning",
+    "AI",
+    "inference",
+    "FPGA"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "electron": "^5.0.2",
+    "electron-packager": "^13.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "request": "^2.88.0",
+    "webcamjs": "^1.0.25"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "request": "^2.88.0",
+    "webcamjs": "^1.0.25"
+  }
+}
