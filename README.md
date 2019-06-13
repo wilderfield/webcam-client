@@ -14,7 +14,9 @@ A basic Electron application needs just these files:
 
 You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
 ## End Goal
-![](demo.gif)
+<p align="center">
+    <img src="demo.gif" alt="Image" width="353" height="199" />
+</p>
 
 ## To Use
 
