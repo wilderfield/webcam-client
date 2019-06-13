@@ -13,6 +13,8 @@ A basic Electron application needs just these files:
 - `index.html` - A web page to render. This is the app's **renderer process**.
 
 You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
+## End Goal
+![](demo.gif)
 
 ## To Use
 
