@@ -1,5 +1,5 @@
 # Webcam-Client
-This repo provides software for users to deploy an application that captures frames from a webcam, and upload's them to a user specified server via HTTP form post request. By using Electron, node, and javascript ... this software can be run on any hardware platform.  
+This repo provides software for users to deploy an application that captures frames from a webcam, and upload's them to a user specified server via HTTP form post request. By using Electron, node, and javascript ... this software can run on any hardware platform.  
 
 ## End Goal
 <p align="center">
